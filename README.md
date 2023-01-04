@@ -1,18 +1,38 @@
-# Vue 3 + TypeScript + Vite
-
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support For `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+# 项目流程记录
+1. 创建项目
+   ```js
+      pnpm create vite my-vue-app
+   ```
+2. 安装依赖
+### 1. 添加路由
+   ```js
+      pnpm i vue-router@4
+   ```
+### 2. 安装pinia
+   ```js
+      pnpm i pinia
+   ```
+### 3. 安装axios
+   ```js
+      pnpm i axios -S
+   ```
+### 4. 安装Echarts
+   ```js
+      pnpm i echarts -S
+   ```
+### 5. 安装ui组件库
+   ```js
+      pnpm i element-plus -S
+   ```
+### 7. 安装dayjs
+   ```js
+      pnpm i dayjs -S
+   ```
+### 8. 安装moment
+   ```js
+      pnpm i moment -S
+   ```
+### 9. 安装normalize.css
+   ```js
+      pnpm i normalize.css -S
+   ```
